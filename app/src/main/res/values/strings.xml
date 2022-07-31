@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="profile">Profile</string>
+    <string name="messages">Messages</string>
+    <string name="friends">Friends</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="sing_out">Sing Out</string>
+    <string name="gago_hamasyan">Gago Hamasyan</string>
+    <string name="hello_gago">Hello Gago</string>
+    <string name="my_name_is_not_gago">My name is not Gago</string>
+    <string name="my_life_is_broken">My life is broken</string>
+    <string name="gag">Գագո</string>
+    <string name="description">Ամենայն հայոց Գագ</string>
+    <string name="_12_55">12:55</string>
+    <string name="name2">Վարագույր Փոշոտյան</string>
+    <string name="name1">Համարձակ Փշաքաղվյան</string>
+    <string name="sms">նամակ-նամակ</string>
+    <string name="name3">Գործունյա Անգործյան</string>
+</resources>

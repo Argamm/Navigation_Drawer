@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/first_contact"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_one"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_130"
+            android:layout_marginTop="@dimen/space_30"
+            android:text="@string/name1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_15" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_150"
+            android:layout_marginTop="@dimen/space_60"
+            android:text="@string/sms"
+            android:textSize="@dimen/size_10" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_300"
+            android:text="@string/_12_55" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/second_contact"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_two"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_2" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_130"
+            android:layout_marginTop="@dimen/space_30"
+            android:text="@string/name2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_15" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_150"
+            android:layout_marginTop="@dimen/space_60"
+            android:text="@string/sms"
+            android:textSize="@dimen/size_10" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_300"
+            android:text="@string/_12_55" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/third_contact"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_three"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_3" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_130"
+            android:layout_marginTop="@dimen/space_30"
+            android:text="@string/name3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_15" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_150"
+            android:layout_marginTop="@dimen/space_60"
+            android:text="@string/sms"
+            android:textSize="@dimen/size_10" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_300"
+            android:text="@string/_12_55" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

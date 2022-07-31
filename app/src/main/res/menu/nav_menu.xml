@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_messages"
+        android:title="@string/messages" />
+    <item
+        android:id="@+id/friends"
+        android:icon="@drawable/ic_friends"
+        android:title="@string/friends" />
+    <item android:title="@string/account_settings">
+        <menu>
+            <item
+                android:id="@+id/update"
+                android:icon="@drawable/ic_update"
+                android:title="@string/update_profile" />
+            <item
+                android:id="@+id/sing_out"
+                android:icon="@drawable/ic_sing"
+                android:title="@string/sing_out" />
+
+        </menu>
+    </item>
+</menu>

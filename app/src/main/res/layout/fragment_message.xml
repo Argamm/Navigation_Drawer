@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/space_20">
+
+    <TextView
+        android:id="@+id/tv_first_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_20"
+        android:background="@drawable/message_design1"
+        android:paddingHorizontal="@dimen/space_50"
+        android:paddingVertical="@dimen/space_15"
+        android:text="@string/hello_gago"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_second_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_30"
+        android:background="@drawable/message_design2"
+        android:paddingHorizontal="@dimen/space_50"
+        android:paddingVertical="@dimen/space_15"
+        android:text="@string/my_name_is_not_gago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_first_sms" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_30"
+        android:background="@drawable/message_design1"
+        android:paddingHorizontal="@dimen/space_50"
+        android:paddingVertical="@dimen/space_15"
+        android:text="@string/my_life_is_broken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_second_sms" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
